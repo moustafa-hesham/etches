@@ -16,9 +16,9 @@ class EtchesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: HomePage.id,
       routes: {
-        HomePage.id: (context) => HomePage(),
-        CartPage.id: (context) => CartPage(),
-        ProductPage.id: (context) => ProductPage(),
+        HomePage.id: (context) => const HomePage(),
+        CartPage.id: (context) => const CartPage(),
+        ProductPage.id: (context) => const ProductPage(),
       },
     );
   }

@@ -1,4 +1,5 @@
 import 'package:etches_app/models/model.dart';
+import 'package:etches_app/screens/widgets/custom_favIcon.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -46,10 +47,7 @@ class CustomCard extends StatelessWidget {
                           style: const TextStyle(
                               fontSize: 16,
                               color: Color.fromARGB(255, 111, 111, 111))),
-                      const Icon(
-                        FontAwesomeIcons.solidHeart,
-                        color: Colors.red,
-                      ),
+                      FavIcon(),
                     ],
                   )
                 ],

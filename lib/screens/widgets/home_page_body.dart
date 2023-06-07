@@ -34,7 +34,7 @@ class HomePageBody extends StatelessWidget {
               return GestureDetector(
                 onTap: () {
                   Navigator.pushNamed(context, ProductPage.id,
-                      arguments: products);
+                      arguments: products[index]);
                 },
                 child: CustomCard(
                   products: products[index],
