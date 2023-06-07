@@ -1,5 +1,5 @@
-import 'package:etches_app/screens/widgets/Product_checkout_card.dart';
-import 'package:etches_app/screens/widgets/custom_button.dart';
+import 'package:etches_app/ui/widgets/Product_checkout_card.dart';
+import 'package:etches_app/ui/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

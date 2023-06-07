@@ -1,4 +1,4 @@
-import 'package:etches_app/models/model.dart';
+import 'package:etches_app/network/models/model.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_button.dart';
@@ -8,8 +8,6 @@ class ProductPageBody extends StatelessWidget {
   final ProductModel products;
   @override
   Widget build(BuildContext context) {
-    final ProductModel products =
-        ModalRoute.of(context)!.settings.arguments as ProductModel;
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(

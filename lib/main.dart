@@ -1,6 +1,6 @@
-import 'package:etches_app/screens/cart_page.dart';
-import 'package:etches_app/screens/home_page.dart';
-import 'package:etches_app/screens/product_page.dart';
+import 'package:etches_app/ui/screens/cart_page.dart';
+import 'package:etches_app/ui/screens/home_page.dart';
+import 'package:etches_app/ui/screens/product_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

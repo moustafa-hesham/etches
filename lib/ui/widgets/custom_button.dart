@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../cart_page.dart';
+import '../screens/cart_page.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({super.key, required this.ButtonName});

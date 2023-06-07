@@ -1,19 +1,17 @@
-import 'package:etches_app/screens/product_page.dart';
-import 'package:etches_app/screens/widgets/custom_card.dart';
+import 'package:etches_app/ui/screens/product_page.dart';
+import 'package:etches_app/ui/widgets/custom_card.dart';
 import 'package:flutter/material.dart';
 
-import '../../helper/api.dart';
-import '../../models/model.dart';
+import '../../logic/home_logic.dart';
+import '../../network/services/api.dart';
+import '../../network/models/model.dart';
 
 class HomePageBody extends StatelessWidget {
   const HomePageBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final fakeProductApi =
-        FakeProductApi(); // Create an instance of FakeProductApi
-    final List<ProductModel> products =
-        fakeProductApi.products; // Get the list of products
+    var products = HomeLogic.getProducts();
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 38),

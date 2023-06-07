@@ -1,5 +1,5 @@
-import 'package:etches_app/models/model.dart';
-import 'package:etches_app/screens/widgets/custom_favIcon.dart';
+import 'package:etches_app/network/models/model.dart';
+import 'package:etches_app/ui/widgets/custom_favIcon.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
