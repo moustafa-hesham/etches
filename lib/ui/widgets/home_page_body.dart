@@ -29,14 +29,9 @@ class HomePageBody extends StatelessWidget {
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 50),
             itemBuilder: (context, index) {
-              return GestureDetector(
-                onTap: () {
-                  Navigator.pushNamed(context, ProductPage.id,
-                      arguments: products[index]);
-                },
-                child: CustomCard(
-                  products: products[index],
-                ),
+              return CustomCard(
+                products: products[index],
+                index: index,
               );
             }),
       ),
